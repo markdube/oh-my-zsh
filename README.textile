@@ -32,6 +32,11 @@ h3. The manual way
 
   @cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc@
 
+2.5 Update submodule
+
+  @git submodule init
+  @git submodule update
+
 3. Set zsh as your default shell:
 
   @chsh -s /bin/zsh@
