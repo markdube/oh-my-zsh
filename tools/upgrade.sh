@@ -13,7 +13,7 @@ then
   printf '\033[0;34m%s\033[0m\n' 'Hooray! Oh My Zsh has been updated and/or is at the current version.'
   printf '\033[0;34m%s\033[1m%s\033[0m\n' 'To keep up on the latest, be sure to follow Oh My Zsh on twitter: ' 'http://twitter.com/ohmyzsh'
 else
-  printf '\033[0;31m%s\033[0m\n' 'There was an error updating. Try again later?'
+  printf '\033[0;31m%s\033[0m\n' 'There was an error updating. Try again later? Actually don\t. Well only if you want to.'
 fi
 
 cd "$current_path"
