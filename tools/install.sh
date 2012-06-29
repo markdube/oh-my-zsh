@@ -22,8 +22,10 @@ echo "\033[0;34mUsing the Oh My Zsh template file and adding it to ~/.zshrc\033[
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 
 echo "Updating Submodules"
+cd ~/.oh-my-zsh
 git submodule init
 git submodule update
+cd -
 
 echo "\033[0;34mCopying your current PATH and adding it to the end of ~/.zshrc for you.\033[0m"
 echo "export PATH=$PATH" >> ~/.zshrc
